@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="835.0" style="-fx-background-color: linear-gradient(to bottom right, #0f172a, #1f2937);" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rideease.Scene1Controller">
+  <children>
+    <ImageView fitHeight="500.0" fitWidth="835.0" mouseTransparent="true" preserveRatio="false" smooth="true">
+      <image>
+        <Image url="@/com/example/rideease/assets/5cdde1b7000f7857fa155eb7f6f7fd59.jpeg" />
+      </image>
+    </ImageView>
+    <!-- Top-right corner for Log In and Sign Up buttons -->
+    <Button fx:id="loginButton" layoutX="643.0" layoutY="34.0" onAction="#handleLogin" prefHeight="30" prefWidth="70" text="Log In" />
+    <Button fx:id="signupButton" layoutX="751.0" layoutY="34.0" onAction="#handleSignUp" prefHeight="30" prefWidth="70" text="Sign Up">
+      <font>
+         <Font name="Comic Sans MS" size="12.0" />
+      </font></Button>
+
+    <!-- Left section: Welcome message -->
+    <VBox alignment="CENTER" layoutX="555" layoutY="100" spacing="10" />
+
+    <!-- Right section: Tagline -->
+    <VBox alignment="CENTER" layoutX="562.0" layoutY="357.0" spacing="10">
+        <Label style="-fx-font-size: 24; -fx-font-style: italic; -fx-text-fill: white;" text="Plan Your Everyday Trip" textFill="WHITE" />
+        <Label style="-fx-font-size: 24; -fx-font-style: italic; -fx-text-fill: white;" text="with us" />
+    </VBox>
+     <Label layoutX="678.0" layoutY="197.0" style="-fx-font-size: 30; -fx-font-style: italic; -fx-text-fill: white;" text="To" />
+     <Label layoutX="637.0" layoutY="246.0" style="-fx-font-size: 30; -fx-font-style: italic; -fx-text-fill: white" text="RideEase" />
+     <Label layoutX="634.0" layoutY="151.0" prefHeight="38.0" prefWidth="120.0" style="-fx-font-size: 30; -fx-font-style: italic; -fx-text-fill: white;" text="Welcome" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="208.0" prefWidth="437.0" style="-fx-background-color: linear-gradient(to bottom right, #0f172a, #1e293b);" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="com.example.rideease.PaymentController">
+    <Label layoutX="204.0" layoutY="14.0" style="-fx-font-size: 24; -fx-font-weight: bold;" text="Payment Screen" />
+    <Text fx:id="fareText" layoutX="249.0" layoutY="97.0" style="-fx-font-size: 18;" text="Fare: - Taka" />
+    <Button fx:id="payNowButton" layoutX="263.0" layoutY="137.0" onAction="#handlePayNow" text="Pay Now" />
+</AnchorPane>

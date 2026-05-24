@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Project assets (images) ###
+# Ignore asset images to avoid committing large binaries; build copies also ignored
+/src/main/resources/com/example/rideease/assets/*
+/target/classes/com/example/rideease/assets/*
+/.env
